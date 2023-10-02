@@ -96,11 +96,13 @@ header nav ul li i{
     padding-bottom: 0.8rem;
 }
 .list-items{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
-    left: 900px;
-    top: 30%;
-    cursor: pointer;
+    gap: 20px;
+    padding: 8rem;
+    margin-left: 45rem;
 }
 .list-items i:hover{
     color: #c46b1d;
