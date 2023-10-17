@@ -5,17 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
-    rel="stylesheet">
-
+  rel="stylesheet">
+  
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-  <title>Portfolio</title>
-
+  <title>Proyecto front-end</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="./javaScript/script.js"></script>
 </head>
 
 <body>
@@ -23,7 +21,7 @@
     <nav class="navbar grid--container">
       <img src="./assets/img/depositphotos_179665132-stock-illustration-luxury-letter-d-and-letter.jpg"
         class="navbar__logo" alt="logo">
-      <div class="navbar__menu">
+        <div class="navbar__menu">
         <i class='bx bx-x btn__close navbar__icon'></i>
 
         <ul class="navbar__list">
@@ -33,7 +31,7 @@
           <li class="navbar__item"><a class="navbar__link" href="#contact">Contact</a></li>
         </ul>
       </div>
-
+      
       <i class='bx bx-menu btn__open navbar__icon'></i>
     </nav>
   </header>
@@ -48,10 +46,10 @@
         </div>
 
         <ul class="home__social">
-          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-linkedin'></i></a></li>
-          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-instagram'></i></a></li>
-          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-facebook'></i></a></li>
-          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-twitter'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="https://developers.facebook.com/community/?locale=es_ES" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="https://developer.twitter.com/en" target="_blank"><i class='bx bxl-twitter'></i></a></li>
         </ul>
 
         <div class="home__info">
@@ -62,7 +60,7 @@
         </div>
 
         <div class="home__buttons">
-          <button class="btn btn--primary" type="button">DOWLOAD CV</button>
+          <button class="btn btn--primary" type="button" onclick="location.href='https://github.com/Alejopb2810?tab=repositories'">SEE GITHUB</button>
         </div>
       </div>
     </section>
@@ -143,17 +141,17 @@
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="./assets/img/35383.jpg" alt="project 1">
+              <img src="./assets/img/pokeapireact.jpg" alt="project 1">
             </div>
 
             <div class="projects__info">
               <h3 class="projects__name">Project One</h3>
               <p class="projects__description">
-                I can help you in any business project that you need.
+                This App is make it with React.js, Axios and CSS
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">SEE GITHUB</button>
+                <button class="btn projects__button" type="button" onclick="location.href='https://pokeapifromreact.netlify.app/'">SEE NETLIFY</button>
               </div>
             </div>
           </div>
@@ -162,7 +160,7 @@
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="./assets/img/proyect 2.jpg" alt="project 2">
+              <img src="./assets/img/weather.jpg" alt="project 2">
             </div>
 
             <div class="projects__info">
@@ -172,7 +170,7 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">SEE GITHUB</button>
+                <button class="btn projects__button" type="button"  onclick="location.href='https://project-react2weather.netlify.app/'">SEE NETLIFY</button>
               </div>
             </div>
           </div>
@@ -181,7 +179,7 @@
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="./assets/img/proyect 3.jpg" alt="project 3">
+              <img src="./assets/img/rickandmorty.jpg" alt="project 3">
             </div>
 
             <div class="projects__info">
@@ -191,7 +189,7 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">SEE GITHUB</button>
+                <button class="btn projects__button" type="button"  onclick="location.href='https://project3-rickandmorty.netlify.app/'">SEE NETLIFY</button>
               </div>
             </div>
           </div>
@@ -200,7 +198,7 @@
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="./assets/img/proyect 4.jpg" alt="project 1">
+              <img src="./assets/img/frases.jpg" alt="project 1">
             </div>
 
             <div class="projects__info">
@@ -210,7 +208,7 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">SEE GITHUB</button>
+                <button class="btn projects__button" type="button" onclick="location.href='https://phrases-react.netlify.app/'">SEE NETLIFY</button>
               </div>
             </div>
           </div>
@@ -218,124 +216,75 @@
       </div>
     </section>
 
-    <section id="contact" class="contact section">
-      <h2 class="section__title1">Contact</h2>
-
-      <div class="contact__container grid--container">
-        <div class="contact__info">
-          <h3 class="contact__info-title">Contact Info </h3>
-          <p class="contact__info-description">
-            Here you can contact me for any request or requirement you need.
-          </p>
-
-          <address class="contatc__info-data">
-            <div class="contact__info-item">
-              <i class='bx bx-phone'></i>
-
-              <span class="contact__info-nomber">
-                +57 314 212 9213
-              </span>
-            </div>
-
-            <div class="contact__info-item">
-              <i class='bx bxs-envelope'></i>
-
-              <span class="contact__info-mail">
-                <a href="mailto:test@correo.com">
-                  dapb.28@gmail.com
-                </a>
-              </span>
-            </div>
-
-            <div class="contact__info-item">
-              <i class='bx bx-map'></i>
-
-              <span class="contact__info-map">
-                Bogotá, Colombia.
-              </span>
-            </div>
-          </address>
-        </div>
-
-        <div class="contact__form">
-          <h3 class="contact__form-title">Send Message</h3>
-
-          <form id="form" class="contact__form-container">
-
-            <div class="contact__form-group">
-              <label for="name" class="contact__form-label">Name</label>
-              <input type="text" id="name" class="contact__form-input">
-            </div>
-
-            <div class="contact__form-group">
-              <label for="email" class="contact__form-label">E-mail</label>
-              <input type="email" id="email" class="contact__form-input">
-            </div>
-
-            <div class="contact__form-group">
-              <label for="message" class="contact__form-label">Message</label>
-              <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
-            </div>
-
-            <button type="submit" class="btn contact__form-button">Send</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
+    
   </main>
+  <footer id="contact" class="contact section">
+    <h2 class="section__title1">Contact</h2>
 
-  <footer class="footer section">
-    <div class="footer__container grid--container">
-      <div class="footer__info">
-        <h3 class="footer__title">Deiby Parrado</h3>
-        <p class="footer__description">
-          I am a full stack developer, always learning about modern technology and trends.
+    <div class="contact__container grid--container">
+      <div class="contact__info">
+        <h3 class="contact__info-title">Contact Info </h3>
+        <p class="contact__info-description">
+          Here you can contact me for any request or requirement you need.
+        </p>
+
+        <address class="contatc__info-data">
+          <div class="contact__info-item">
+            <i class='bx bx-phone'></i>
+
+            <span class="contact__info-nomber">
+              +57 314 212 9213
+            </span>
+          </div>
+
+          <div class="contact__info-item">
+            <i class='bx bxs-envelope'></i>
+
+            <span class="contact__info-mail">
+              <a href="mailto:test@correo.com" >
+                dapb.28@gmail.com
+              </a>
+            </span>
+          </div>
+
+          <div class="contact__info-item">
+            <i class='bx bx-map'></i>
+
+            <span class="contact__info-map">
+              Bogotá, Colombia.
+            </span>
+          </div>
+        </address>
+      </div>
+
+      <div class="contact__form">
+        <h3 class="contact__form-title">Send Message</h3>
+
+        <form id="form" class="contact__form-container">
+
+          <div class="contact__form-group">
+            <label for="name" class="contact__form-label">Name</label>
+            <input type="text" id="name" class="contact__form-input">
+          </div>
+
+          <div class="contact__form-group">
+            <label for="email" class="contact__form-label">E-mail</label>
+            <input type="email" id="email" class="contact__form-input">
+          </div>
+
+          <div class="contact__form-group">
+            <label for="message" class="contact__form-label">Message</label>
+            <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+          </div>
+
+          <button type="submit" class="btn contact__form-button">Send</button>
+        </form>
+        <p class="footer__copy">
+          &copy; 2022, Todos los derechos reservados
         </p>
       </div>
-
-      <div class="footer__social">
-        <h3 class="footer__title">Social Media</h3>
-
-        <ul class="footer__socail-list">
-          <li class="footer__social-item">
-            <a class="footer__social-link" href="#"><i class='bx bxl-facebook'></i></a>
-          </li>
-
-          <li class="footer__social-item">
-            <a class="footer__social-link" href="#"><i class='bx bxl-instagram'></i></a>
-          </li>
-
-          <li class="footer__social-item">
-            <a class="footer__social-link" href="#"><i class='bx bxl-twitter'></i></a>
-          </li>
-
-          <li class="footer__social-item">
-            <a class="footer__social-link" href="#"><i class='bx bxl-linkedin'></i></a>
-          </li>
-        </ul>
-      </div>
     </div>
-
-    <p class="footer__copy">
-      &copy; 2022, Todos los derechos reservados
-    </p>
   </footer>
-
-  <script>
-    const btnMenu = document.querySelector('.btn__open')
-    const btnClose = document.querySelector('.btn__close')
-    const Menu = document.querySelector('.navbar__menu')
-
-
-    btnMenu.onclick = function () {
-      Menu.classList.add('show--menu')
-    }
-
-    btnClose.onclick = function () {
-      Menu.classList.remove('show--menu')
-    }
-  </script>
 
 </body>
 
