@@ -1,0 +1,116 @@
+/* punto 4 */
+section{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#punto4 h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.azul{
+    color: blue;
+}
+.rojo{
+    color: red;
+}
+
+/* punto 5 */
+#punto5{
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+}
+#punto5 .uno{
+    color: green;
+    text-decoration: underline;
+}
+#punto5 .dos{
+    color: red;
+    font-weight: bold;
+}
+#punto5 .tres{
+    text-decoration: overline underline;
+}
+#punto5 .cuatro{
+    font-weight: bold;
+    font-size: 30px;
+}
+#punto5 .cinco{
+    color: blue;
+    font-weight: bold;
+}
+#punto5 .seis{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* punto 6 */
+#punto6{
+    text-align: center;
+}
+
+.link1{
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+}
+.link1:hover{
+    color: rgb(216, 71, 27);
+}
+.link2{
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.link2:hover{
+    color: rgb(23, 2, 34);
+}
+
+/* punto 7 */
+nav{
+    display: flex;
+    justify-content: center;
+}
+#punto7 ul{
+    display:flex;
+    background-color: rgb(159, 118, 177);
+    color: #fff;
+    width: 40%;
+    height: 70px;
+    align-items: center;
+
+}
+#punto7 li{
+    list-style: none;
+}
+#punto7 li:hover{
+    background-color: blue;
+    padding: 15px 10px;
+
+}
+#punto7 i{
+    padding: 20px;
+    font-size: 15px;
+    list-style: none;
+}
+
+/* punto 8 */
+#punto8 table{
+     background-color: yellow;
+     border: 1px dotted black;
+}
+#punto8 table th::first-letter{
+    font-weight: bold;
+}
+#punto8 table th{
+    color: red;
+    font-style: italic;
+    border: none;
+}
+#punto8 table td{
+    padding: 0;
+    border: 1px dotted black;
+}
